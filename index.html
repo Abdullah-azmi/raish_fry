@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raish Fry & Juice Corner</title>
+<meta name="description" content="Raish Fry & Juice Corner — Chicken Alfaham, Fish Fry, Chicken Tikka, fresh juices and more. Order on WhatsApp for quick pickup.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-item"><i class="bi bi-clock-fill"></i> Open Daily · 07:00 PM – 12:00 AM</div>
+    <div class="topbar-item d-none d-md-flex"><i class="bi bi-geo-alt-fill"></i> Pura Rani Mubarakpur Azamgarh</div>
+    <a href="#whatsapp-order" class="topbar-item topbar-cta"><i class="bi bi-whatsapp"></i> +91 9236831352</a>
+  </div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+
+<nav class="navbar navbar-expand-lg main-nav sticky-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-mark">R</span>
+      <span class="brand-text">
+        <span class="brand-name">RAISH</span>
+        <span class="brand-sub">FRY &amp; JUICE CORNER</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+      <span class="bi bi-list"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto main-nav-links">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Find Us</a></li>
+      </ul>
+      <a href="https://wa.me/919000000000?text=Hi%20Raish%20Fry%20%26%20Juice%20Corner%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" class="btn nav-order-btn">
+        <i class="bi bi-whatsapp"></i> Order Now
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+
+<header class="hero" id="home">
+  <div class="hero-embers" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7">
+        <p class="hero-eyebrow"><i class="bi bi-fire"></i> Charcoal Grilled &middot; Fresh Pressed</p>
+        <h1 class="hero-title">
+          SIZZLING <span class="text-outline">FRY.</span><br>
+          FRESH <span class="text-turmeric">JUICE.</span>
+        </h1>
+        <p class="hero-text">
+          From smoky Chicken Alfaham to cold-pressed fruit juice — Raish Fry &amp; Juice Corner
+          serves it hot, fresh and fast. No shortcuts, just flavor off the flame.
+        </p>
+        <div class="hero-btns">
+          <a href="#menu" class="btn btn-hero-primary">View Full Menu <i class="bi bi-arrow-down-short"></i></a>
+          <a id="whatsapp-order" href="https://wa.me/9236831352?text=Hi%20Raish%20Fry%20%26%20Juice%20Corner%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" class="btn btn-hero-whatsapp">
+            <i class="bi bi-whatsapp"></i> Order on WhatsApp
+          </a>
+        </div>
+        <div class="hero-badges">
+          <span><i class="bi bi-lightning-charge-fill"></i> Quick Pickup</span>
+          <span><i class="bi bi-egg-fried"></i> Made Fresh to Order</span>
+          <span><i class="bi bi-cup-straw"></i> Fresh Juice Daily</span>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-ticket">
+          <div class="hero-ticket-top">
+            <span>TODAY'S SPECIAL</span>
+            <i class="bi bi-fire"></i>
+          </div>
+          <h3>Chicken Alfaham</h3>
+          <p>Char-grilled, smoked &amp; spiced whole chicken — a Raish signature.</p>
+          <div class="hero-ticket-perf"></div>
+          <div class="hero-ticket-bottom">
+            <span class="price-tag">₹ 299</span>
+            <a href="#menu" class="ticket-link">See Menu <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,90 480,0 720,24 C960,48 1200,90 1440,40 L1440,90 L0,90 Z"></path></svg>
+  </div>
+</header>
+
+<!-- ============ MARQUEE STRIP ============ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>FRESH OFF THE GRILL</span><span><i class="bi bi-fire"></i></span>
+    <span>CHICKEN ALFAHAM</span><span><i class="bi bi-fire"></i></span>
+    <span>FISH FRY</span><span><i class="bi bi-fire"></i></span>
+    <span>COLD PRESSED JUICE</span><span><i class="bi bi-fire"></i></span>
+    <span>MUTTON HANDI — COMING SOON</span><span><i class="bi bi-fire"></i></span>
+    <span>MANDI RICE — COMING SOON</span><span><i class="bi bi-fire"></i></span>
+    <!-- duplicate for seamless loop -->
+    <span>FRESH OFF THE GRILL</span><span><i class="bi bi-fire"></i></span>
+    <span>CHICKEN ALFAHAM</span><span><i class="bi bi-fire"></i></span>
+    <span>FISH FRY</span><span><i class="bi bi-fire"></i></span>
+    <span>COLD PRESSED JUICE</span><span><i class="bi bi-fire"></i></span>
+    <span>MUTTON HANDI — COMING SOON</span><span><i class="bi bi-fire"></i></span>
+    <span>MANDI RICE — COMING SOON</span><span><i class="bi bi-fire"></i></span>
+  </div>
+</div>
+
+<!-- ============ MENU ============ -->
+ 
+<section class="section menu-section" id="menu">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">The Menu</p>
+      <h2 class="section-title">Fired Up &amp; Ready</h2>
+      <p class="section-sub">Every plate is prepared fresh to order — pick a category to explore.</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="menu-filters reveal" role="tablist">
+      <button class="filter-btn active" data-filter="all">All Items</button>
+      <button class="filter-btn" data-filter="fry">Fry &amp; Grill</button>
+      <button class="filter-btn" data-filter="rice">Rice, Roti &amp; Sides</button>
+      <button class="filter-btn" data-filter="juice">Juice Corner</button>
+      <button class="filter-btn" data-filter="soon">Coming Soon</button>
+    </div>
+
+    <div class="row g-4 menu-grid">
+
+      <!-- Chicken Fry -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="fry">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:194,60,63;">
+            <i class="bi bi-egg-fried"></i>
+           <img src="https://images.unsplash.com/photo-1600555379765-f82335a7b1b0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="300" alt="Halal" class="product-badge">
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chicken Fry</h3>
+              <span class="price-tag">₹ 400/kg</span>
+            </div>
+            <p>Crispy on the outside, juicy inside — our classic marinated chicken fry.</p>
+            <a class="order-link" href="https://wa.me/919236831352?text=Hi%2C%20I%27d%20like%20to%20order%20Chicken%20Fry" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicken Alfaham -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="fry">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:244,163,0;">
+                    <img src="https://i.pinimg.com/1200x/08/eb/b7/08ebb7d84307d4492289b1854b595420.jpg" width="300" alt="Halal" class="product-badge">
+
+
+            <span class="badge-best">Signature</span>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chicken Alfaham</h3>
+              <span class="price-tag">₹ 299</span>
+            </div>
+            <p>Charcoal-grilled &amp; smoked whole chicken, Raish-style spice rub.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Chicken%20Alfaham" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fish Fry -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="fry">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:127,180,0;">
+                                          <img src="https://i.pinimg.com/736x/ae/51/b8/ae51b881986c1a929be647209bdb51fe.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Fish Fry</h3>
+              <span class="price-tag">₹ 229</span>
+            </div>
+            <p>Fresh fish, coated &amp; fried golden with a coastal spice blend.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Fish%20Fry" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicken Tikka -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="fry">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:194,60,63;">
+                               <img src="https://i.pinimg.com/1200x/17/0d/3e/170d3e18d9f5a67d1fd12d0726277787.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chicken Tikka</h3>
+              <span class="price-tag">₹ 219</span>
+            </div>
+            <p>Yogurt-marinated chicken chunks, char-grilled to smoky perfection.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Chicken%20Tikka" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicken Chilli -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="fry">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:244,163,0;">
+            <i class="bi bi-pepper-hot"></i>
+                                           <img src="https://i.pinimg.com/1200x/83/a9/ee/83a9ee268068d0c1c38cc0d02532c70a.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Chicken Chilli</h3>
+              <span class="price-tag">₹ 209</span>
+            </div>
+            <p>Indo-Chinese style tossed chicken with peppers in a spicy glaze.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Chicken%20Chilli" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jeera Rice -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="rice">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:127,180,0;">
+            <img src="https://i.pinimg.com/1200x/9d/58/11/9d5811e012c490b990b34fa330015976.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Jeera Rice</h3>
+              <span class="price-tag">₹ 129</span>
+            </div>
+            <p>Fragrant basmati rice tempered with roasted cumin.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Jeera%20Rice" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Poratha -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="rice">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:244,163,0;">
+        <img src="https://i.pinimg.com/736x/f1/c9/01/f1c90192d90038f1b3555b451b7ca782.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Poratha</h3>
+              <span class="price-tag">₹ 25 <small>/pc</small></span>
+            </div>
+            <p>Flaky, layered flatbread — the perfect side for any curry.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Poratha" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Roti -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="rice">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:194,60,63;">
+                   <img src="https://i.pinimg.com/736x/88/60/dd/8860dd83b5216542e7977d4e364c81b3.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Roti</h3>
+              <span class="price-tag">₹ 18 <small>/pc</small></span>
+            </div>
+            <p>Soft, hand-rolled tandoor roti, made fresh to order.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Roti" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fresh Juices -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="juice">
+        <div class="menu-card">
+          <div class="menu-card-media" style="--tint:127,180,0;">
+                         <img src="https://i.pinimg.com/736x/7e/1c/7f/7e1c7f8b535741d1801066c47dae76b3.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Fresh Fruit Juice</h3>
+              <span class="price-tag">₹ 79+</span>
+            </div>
+            <p>Watermelon, mosambi, pomegranate &amp; seasonal fruit — cold-pressed daily.</p>
+            <a class="order-link" href="https://wa.me/919000000000?text=Hi%2C%20I%27d%20like%20to%20order%20Fresh%20Juice" target="_blank" rel="noopener">Order <i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mutton Handi - Coming Soon -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="soon">
+        <div class="menu-card is-soon">
+          <div class="ribbon">Coming Soon</div>
+          <div class="menu-card-media" style="--tint:194,60,63;">
+                                     <img src="https://i.pinimg.com/1200x/a6/4c/2c/a64c2c107486f8849390ee60bcdf1831.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mutton Handi</h3>
+              <span class="price-tag">TBA</span>
+            </div>
+            <p>Slow-cooked mutton curry in a sealed handi — launching soon.</p>
+            <span class="order-link disabled">Notify Me Soon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mandi Rice - Coming Soon -->
+      <div class="col-md-6 col-lg-4 menu-item reveal" data-cat="soon">
+        <div class="menu-card is-soon">
+          <div class="ribbon">Coming Soon</div>
+          <div class="menu-card-media" style="--tint:244,163,0;">
+                                                <img src="https://i.pinimg.com/1200x/99/60/d3/9960d3cbb10de9ffd20f66b375919eb1.jpg" width="350" alt="Halal" class="product-badge">
+
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-top">
+              <h3>Mandi Rice</h3>
+              <span class="price-tag">TBA</span>
+            </div>
+            <p>Slow-roasted, aromatic Arabian-style mandi — launching soon.</p>
+            <span class="order-link disabled">Notify Me Soon</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFERS ============ -->
+<section class="section offers-section" id="offers">
+  <div class="container">
+    <div class="section-head reveal light">
+      <p class="section-eyebrow">Limited Time</p>
+      <h2 class="section-title">Today's Offers</h2>
+      <p class="section-sub">Grab these deals before they're gone — valid for dine-in, pickup &amp; WhatsApp orders.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6 reveal">
+        <div class="offer-card">
+          <div class="offer-badge">20% OFF</div>
+          <i class="bi bi-egg-fried offer-icon"></i>
+          <h3>Fry Combo Deal</h3>
+          <p>Any Fry item + Jeera Rice + Roti, bundled at a special combo price.</p>
+          <a href="https://wa.me/919000000000?text=Hi%2C%20I%27m%20interested%20in%20the%20Fry%20Combo%20Deal" target="_blank" rel="noopener" class="offer-cta">Claim on WhatsApp <i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 reveal">
+        <div class="offer-card featured">
+          <div class="offer-badge">FAMILY PACK</div>
+          <i class="bi bi-fire offer-icon"></i>
+          <h3>Alfaham Family Feast</h3>
+          <p>1 Whole Chicken Alfaham + 2 Sides + 4 Rotis — perfect for sharing.</p>
+          <a href="https://wa.me/919000000000?text=Hi%2C%20I%27m%20interested%20in%20the%20Alfaham%20Family%20Feast" target="_blank" rel="noopener" class="offer-cta">Claim on WhatsApp <i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 reveal">
+        <div class="offer-card">
+          <div class="offer-badge">COMBO</div>
+          <i class="bi bi-cup-straw offer-icon"></i>
+          <h3>Fry + Juice Combo</h3>
+          <p>Any Fry &amp; Grill item paired with a fresh juice of your choice.</p>
+          <a href="https://wa.me/919000000000?text=Hi%2C%20I%27m%20interested%20in%20the%20Fry%20%2B%20Juice%20Combo" target="_blank" rel="noopener" class="offer-cta">Claim on WhatsApp <i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about-section" id="about">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6 reveal">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Real Fire. Real Flavor.</h2>
+        <p class="about-text">
+          Raish Fry &amp; Juice Corner started with one idea: food should be cooked fresh, in front of you,
+          with real charcoal and real fruit — nothing frozen, nothing pre-mixed. From our signature
+          Chicken Alfaham to a glass of cold-pressed juice, every order is made when you ask for it.
+        </p>
+        <div class="about-features">
+          <div class="about-feature"><i class="bi bi-fire"></i><span>Charcoal Grilled Daily</span></div>
+          <div class="about-feature"><i class="bi bi-patch-check-fill"></i><span>100% Genuine</span></div>
+          <div class="about-feature"><i class="bi bi-cup-straw"></i><span>Fresh Juice, No Concentrate</span></div>
+          <div class="about-feature"><i class="bi bi-lightning-charge-fill"></i><span>Fast Pickup &amp; Delivery</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal">
+        <div class="about-visual">
+          <div class="about-circle">
+            <i class="bi bi-fire"></i>
+          </div>
+          <div class="about-stat-card stat-1"><strong>Fresh</strong><span>Cooked to order</span></div>
+          <div class="about-stat-card stat-2"><strong>Premium Quality</strong><span>100% Genuine</span></div>
+          <div class="about-stat-card stat-3"><strong>Daily</strong><span>Juice pressed fresh</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FIND US ============ -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Visit / Order</p>
+      <h2 class="section-title">Find Raish Fry &amp; Juice Corner</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-5 reveal">
+        <div class="contact-card">
+          <div class="contact-row"><i class="bi bi-geo-alt-fill"></i><div><strong>Address</strong><p>Pura Rani Samoudhi Road Mubarakpur Azamgarh Utter Pradesh 276404</p></div></div>
+          <div class="contact-row"><i class="bi bi-clock-fill"></i><div><strong>Hours</strong><p>Everyday · 07:00 PM – 12:00 AM</p></div></div>
+          <div class="contact-row"><i class="bi bi-telephone-fill"></i><div><strong>Call</strong><p>+91 9236831352</p></div></div>
+          <a href="https://wa.me/919236831352?text=Hi%20Raish%20Fry%20%26%20Juice%20Corner%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" class="btn btn-hero-whatsapp w-100 mt-3">
+            <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <div class="map-frame">
+          <iframe src="https://maps.google.com/maps?q=restaurant&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Raish Fry & Juice Corner Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand" href="#home">
+          <span class="brand-mark">R</span>
+          <span class="brand-text">
+            <span class="brand-name">RAISH</span>
+            <span class="brand-sub">FRY &amp; JUICE CORNER</span>
+          </span>
+        </a>
+        <p class="footer-text">Charcoal grilled fry, chicken alfaham &amp; fresh juice — cooked fresh, served fast.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="http://www.youtube.com/@omairansari4433" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/919236831352" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h5>Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Find Us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contact</h5>
+        <ul class="footer-links">
+          <li><i class="bi bi-geo-alt-fill"></i> Pura Rani Samoudhi Road Mubarakpur</li>
+          <li><i class="bi bi-telephone-fill"></i> +91 9236831352</li>
+          <li><i class="bi bi-clock-fill"></i> 07:00 PM – 12:00 AM</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="footer-copy">© <span id="year"></span> Raish Fry &amp; Juice Corner. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOATING BUTTON + CHAT WIDGET ============ -->
+<div class="wa-widget">
+  <div class="wa-panel" id="waPanel">
+    <div class="wa-panel-head">
+      <div class="wa-avatar"><i class="bi bi-shop"></i></div>
+      <div>
+        <strong>Raish Fry &amp; Juice Corner</strong>
+        <span><i class="bi bi-circle-fill"></i> Typically replies instantly</span>
+      </div>
+      <button class="wa-close" id="waClose" aria-label="Close chat">&times;</button>
+    </div>
+    <div class="wa-panel-body">
+      <div class="wa-bubble">👋 Hi there! Welcome to Raish Fry &amp; Juice Corner. Craving Chicken Alfaham or a fresh juice? Tap below to chat with us on WhatsApp.</div>
+    </div>
+    <div class="wa-panel-footer">
+      <a href="https://wa.me/919236831352?text=Hi%20Raish%20Fry%20%26%20Juice%20Corner%2C%20I%27d%20like%20to%20order" target="_blank" rel="noopener" class="btn btn-hero-whatsapp w-100">
+        <i class="bi bi-whatsapp"></i> Start Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+  <button class="wa-fab" id="waFab" aria-label="Chat with us on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span class="wa-ping"></span>
+  </button>
+</div>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
